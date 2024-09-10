@@ -1,0 +1,68 @@
+.books{
+    padding-left: 50px;
+    font-family: sans-serif;
+}
+
+.books-blocks{
+    display: flex;
+    gap: 45px;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+.books h1{
+    text-align: center;
+    color: white;
+}
+
+.book-block{
+    width: 200px;
+    height: 280px;
+    padding-top: 5px;
+    background-image: url(../../assets/shifohiya.jpg);
+    background-size: cover;
+    border-radius: 12px;
+    font-family: sans-serif;
+}
+
+.book2{
+    background-image: url(../../assets/book.jpg);
+    background-size: cover;
+}
+
+.book3{
+    background-image: url(../../assets/an-naym.jpg);
+    background-size: cover;
+}
+
+.book4{
+    background-image: url(../../assets/alifba.png);
+    background-size: cover;
+}
+
+.book-block button{
+    background-color: black;
+    padding: 5px;
+    border-radius: 11px;
+    border: none;
+    cursor: pointer;
+    margin-top: 86%;
+    margin-left: 41%;
+}
+
+.book-block img{
+    width: 30px; 
+}
+
+.book-name{
+    width: 100%; 
+    margin-top: 5px;
+    background-color: #386895;
+    color: white;
+}
+
+.book-name p{
+    text-align: center;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}

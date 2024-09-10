@@ -1,0 +1,49 @@
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #111827;
+    height: 120px;
+}
+
+.header .logo img{
+    margin-left: 80px;
+    width: 50px;
+    border-radius: 50%;
+    background-size: cover;
+}
+
+.header .menu img{
+    width: 40px;
+    cursor: pointer;
+}
+
+.menu, .logo{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: white;
+    margin-right: 25px;
+}
+
+.menu button{
+    cursor: pointer;
+    padding: 10px 24px;
+    border: none;
+    border-radius: 10px;
+    background-color: #386895;
+    color: white;
+}
+
+.menu button:hover{
+    background-color: #21415f;
+
+}
+
+.hr1{
+    width: 100%;
+    height: 1px;
+    background-color: #fff;
+    margin-top: -5px;
+}

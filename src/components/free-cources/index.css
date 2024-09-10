@@ -1,0 +1,44 @@
+.cource img{
+    width: 100px;
+    margin-left: 36%; 
+    height: 120px;
+    margin-top: 25px;
+    border-radius: 50%;
+    background-size: cover;
+}
+.free h1{
+    color: white;
+    text-align: center;
+}
+
+.left1{
+    margin-left: -70px;
+    margin-top: 70px;
+}
+.cource {
+    margin-left: 50px;
+    margin-top: 20px;
+    width: 370px;
+    background-image: url(../../assets/jkl.png);
+    height: 240px;
+    cursor: pointer;
+    color: black;
+    background-size: cover;
+    padding-bottom: 15px;
+    border-radius: 8px;
+}
+
+.cource h1{
+    margin-left: 25px;
+
+}
+
+.free-blocks{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.free{
+    margin-left: 80px;
+}

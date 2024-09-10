@@ -1,0 +1,163 @@
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+.arab-tili-container {
+    display: flex;
+    font-family: sans-serif;
+    height: 100vh; /* Full viewport height */
+}
+
+.arab-tili {
+    width: 300px; /* Adjust based on your needs */
+    background-color: #1a1a2e;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    overflow-y: auto; /* Allows vertical scrolling within the sidebar */
+    max-height: 100vh; /* Ensure full viewport height */
+    flex-shrink: 0; /* Prevent shrinking */
+}
+
+.arab-tili::-webkit-scrollbar {
+    width: 10px;
+}
+
+.arab-tili::-webkit-scrollbar-thumb {
+    background-color: #00f;
+    border-radius: 5px;
+}
+
+.arab-tili::-webkit-scrollbar-track {
+    background-color: #333;
+    border-radius: 5px;
+}
+
+.progress-container {
+    margin-bottom: 20px;
+}
+
+.progress-bar {
+    width: 100%;
+    background-color: #333;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 5px;
+}
+
+.progress {
+    background-color: #00f;
+    height: 10px;
+}
+
+.accordion-item {
+    border-bottom: 1px solid #333;
+}
+
+.accordion-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    cursor: pointer;
+}
+
+.accordion-header h3 {
+    margin: 0;
+}
+
+.accordion-content {
+    padding: 10px 0;
+}
+
+.topic-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.topic-item input {
+    margin-right: 10px;
+}
+
+.topic-item.selected {
+    background-color: #444; /* Highlight color for selected topic */
+}
+
+.arab-tili-right {
+    flex-grow: 1;
+    padding: 20px;
+    background-color: #020817;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden; /* Ensures the video container doesn't overflow */
+}
+
+.hero {
+    padding-bottom: 0px;
+}
+
+.video-container {
+    margin-left: 50px;
+    margin-top: 50px;
+    position: relative;
+}
+
+.video-controls {
+    display: none;
+    position: absolute;
+    bottom: 100px; /* Adjusted to avoid overlapping with the progress bar */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.video-container:hover .video-controls {
+    display: flex;
+}
+
+.video-controls button {
+    color: white;
+    background: none;
+    border: none;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.video-controls button:hover {
+    color: #00f;
+}
+
+input[type="range"] {
+    width: 90%;
+    margin-top: 10px;
+}
+
+.topic-title-container {
+    width: 85%;
+    border-radius: 8px;
+    padding-right: 25px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 25px;
+    align-items: center;
+    background-color: #1E293B;
+}
+
+.topic-title-container h1 {
+    color: white;
+}
+
+.topic-title-container button {
+    width: 180px;
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+    background-color: #2B6CB0;
+    cursor: pointer;
+}

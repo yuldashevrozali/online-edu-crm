@@ -1,0 +1,209 @@
+.arab {
+    overflow-y: auto; /* or scroll */
+    scroll-behavior: none;
+    max-height: 100vh; /* Optional: Set the maximum height to the viewport height */
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+    margin-top: 60px;
+}
+
+.arab::-webkit-scrollbar {
+    display: none;  /* Safari and Chrome */
+}
+
+.arab-top ul {
+    display: flex;
+    gap: 10px;
+    color: #1E293B;
+    margin-top: 15px;
+}
+
+.arab-top span{
+    color: #1E4CD8;
+    font-weight: 600;
+}
+
+.arab-top a {
+    font-size: 21px;
+    color: #777B84;
+    font-family: sans-serif;
+}
+
+.radius {
+    width: 7px;
+    height: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 10px;
+    background-color: #fff;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.arab-block {
+    width: 89%;
+    padding-top: 15px;
+    padding-left: 35px;
+    margin-top: 35px;
+    height: 420px;
+    margin-left: 43px;
+    border-radius: 11px;
+    background-color: #1E293B;
+    font-family: sans-serif;
+    display: flex;
+    overflow-y: auto;
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+}
+
+.arab-block::-webkit-scrollbar {
+    display: none;  /* Safari and Chrome */
+}
+
+.arab-block2 {
+    width: 50%;
+    padding-top: 15px;
+    padding-left: 35px;
+    margin-top: 35px;
+    height: 420px;
+    margin-left: 43px;
+    border-radius: 11px;
+    background-color: #1E293B;
+    font-family: sans-serif;
+    display: flex;
+    overflow-y: auto; 
+    scroll-behavior: none;
+}
+
+.cource1 {
+    margin-left: 20px;
+    margin-top: 30px;
+    width: 370px;
+    background-image: url(../../assets/jkl.png);
+    height: 240px;
+    cursor: pointer;
+    color: black;
+    background-size: cover;
+    padding-bottom: 15px;
+    border-radius: 8px;
+}
+
+.arab-block h1 {
+    color: white;
+}
+
+.arab-block p {
+    color: #777B84;
+    width: 500px;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+.arab-left h6 {
+    font-size: 18px;
+    letter-spacing: 2px;
+    padding-bottom: 10px;
+    color: #1E4CD8;
+}
+.arab-left span{
+    color: #3B82F6;
+}
+
+.left-block img {
+    width: 40px;
+}
+
+.left-block {
+    display: flex;
+    gap: 15px;
+    color: white;
+}
+
+.left-blocks {
+    flex-wrap: wrap;
+    display: flex;
+    gap: 45px;
+    margin-top: 70px;
+    margin-left: 25px;
+    color: white;
+}
+
+.arab-left h1{
+    color: white;
+}
+
+.arab-right2{
+    border: 1px solid #3B82F6;
+}
+
+.blocks125 {
+    display: flex;
+    font-family: sans-serif;
+}
+
+.course-card {
+    background-color: #0E1624;
+    height: 160px;
+    margin-top: 35px;
+    margin-left: 55px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 255, 255, 0.5);
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+    width: 250px;
+}
+
+.course-price {
+    font-size: 16px;
+    margin: 0;
+}
+
+.course-card h2 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.rating {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+    gap: 5px;
+}
+
+.rating-stars {
+    color: orange;
+    font-size: 18px;
+}
+
+.stars {
+    color: orange;
+    font-size: 18px;
+}
+
+.rating-count {
+    color: #ccc;
+    font-size: 14px;
+}
+
+.students {
+    color: #ccc;
+    font-size: 14px;
+}
+
+.enter-button {
+    background-color: #3B82F6;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+    padding: 10px 20px;
+}
+
+.enter-button:hover {
+    background-color: #2563EB;
+}
+
